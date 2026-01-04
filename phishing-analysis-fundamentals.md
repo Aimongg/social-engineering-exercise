@@ -1,3 +1,5 @@
+![Email Sample](images/phishinganalysis.png)
+
 # 🛡️ Social Engineering Exercise – Phishing Analysis Fundamentals
 
 **Platform:** TryHackMe  
