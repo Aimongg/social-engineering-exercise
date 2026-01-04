@@ -1,115 +1,105 @@
-1. Introduction
+# 🛡️ Social Engineering Exercise – Phishing Analysis Fundamentals
 
-Social engineering is a type of cyber attack that exploits human psychology rather than technical vulnerabilities. One of the most common social engineering techniques is phishing, where attackers attempt to deceive users into revealing sensitive information such as passwords, personal data, or financial details.
+**Platform:** TryHackMe  
+**Category:** Social Engineering / Phishing  
+**Author:** Your Name  
+**Date:** 4 January 2025  
 
-This write-up documents my learning experience from the Phishing Analysis Fundamentals exercise on TryHackMe. The objective of this lab is to understand how phishing emails are structured and how to identify malicious indicators within them.
+---
 
-2. Objectives
+## 1. Introduction
 
-- The main objectives of this exercise are:
+Social engineering is a cyber attack technique that targets human behavior rather than technical vulnerabilities. One of the most common forms of social engineering is **phishing**, where attackers attempt to trick individuals into revealing sensitive information such as login credentials or personal data.
 
-- To understand what phishing attacks are and how they work
+This write-up documents my learning experience from the **Phishing Analysis Fundamentals** exercise on TryHackMe. The purpose of this exercise is to understand how phishing emails are structured and how to identify malicious indicators effectively.
 
-- To identify common indicators of phishing emails
+---
 
+## 2. Objectives
+
+The objectives of this exercise are:
+- To understand the concept of phishing attacks
+- To identify common phishing indicators in emails
 - To analyze email components such as headers, links, and attachments
+- To improve awareness of social engineering threats
 
-- To improve awareness and detection of social engineering attacks
+---
 
-3. Overview of the Exercise
+## 3. Exercise Overview
 
-In this exercise, I was provided with examples of phishing emails and guided through the process of analyzing them. The focus was on recognizing suspicious elements rather than performing any form of attack.
+In this exercise, various phishing email examples were provided for analysis. The focus was on **defensive security**, specifically learning how to recognize suspicious elements within emails rather than conducting attacks.
 
-Key components analyzed include:
-
+The main components analyzed include:
 - Sender email address
-
 - Email headers
+- Embedded URLs and hyperlinks
+- Attachments
+- Email content and wording
 
-- Embedded links and URLs
+---
 
-- Attachments and file types
+## 4. Methodology (High-Level Walkthrough)
 
-- Email content and language patterns
+> ⚠️ This section focuses on analysis and awareness, not exploitation.
 
-4. Methodology (High-Level Walkthrough)
+### 4.1 Sender Analysis
+The sender’s email address was examined to determine whether it matched the organization it claimed to represent. Suspicious domains and unusual naming patterns were treated as red flags.
 
-4.1 Email Sender Analysis
-
-The sender’s email address was examined to determine whether it matched the claimed organization. Mismatched domains and unusual naming conventions are strong indicators of phishing.
-
-4.2 Header Inspection
-
-Email headers were reviewed to identify:
-
+### 4.2 Email Header Inspection
+Email headers were analyzed to identify inconsistencies such as:
 - Spoofed sender information
-
-- Inconsistencies in mail servers
-
+- Unexpected mail servers
 - Suspicious IP addresses
 
-4.3 URL and Link Examination
-
-Links embedded in the email were checked for:
-
-- Misspelled domain names
-
+### 4.3 URL and Link Examination
+Embedded links were checked for:
+- Misspelled or misleading domain names
 - URL shorteners
+- Redirections to non-legitimate websites
 
-- Links that redirect to unexpected websites
-
-4.4 Content and Language Analysis
-
-The email content was analyzed for:
-
+### 4.4 Content Analysis
+The email content was reviewed for:
 - Urgent or threatening language
-
 - Requests for sensitive information
+- Grammar and spelling errors
+- Psychological manipulation techniques
 
-- Poor grammar or spelling mistakes
+---
 
-- Social pressure tactics (e.g., fear, urgency, reward)
+## 5. Key Findings
 
-5. Key Findings and Indicators
-
-The following phishing indicators were identified during the exercise:
-
-- Use of urgent language to pressure the victim
-
-- Spoofed sender domains resembling legitimate organizations
-
-- Suspicious URLs that did not match official domains
-
+Several common phishing indicators were identified during the exercise:
+- Urgent messages pressuring immediate action
+- Spoofed email domains resembling trusted organizations
+- Suspicious URLs not matching official domains
 - Generic greetings instead of personalized messages
+- Potentially dangerous attachments
 
-- Attachments with potentially dangerous file extensions
+These techniques are frequently used in real-world phishing campaigns.
 
-These indicators are commonly used in real-world phishing campaigns.
+---
 
-6. Lessons Learned
+## 6. Lessons Learned
 
-From this exercise, I learned that:
-
-- Phishing attacks rely heavily on human error rather than technical flaws
-
+Through this exercise, I learned that:
+- Phishing attacks exploit human trust and urgency
 - Email headers provide valuable forensic information
+- Verifying sender details and URLs is critical
+- User awareness is one of the strongest defenses against phishing
 
-- Users should always verify links and sender addresses before interacting
+---
 
-- Awareness and education are critical in preventing phishing attacks
+## 7. Conclusion
 
-- This knowledge is essential for both cybersecurity professionals and everyday users.
+The **Phishing Analysis Fundamentals** exercise provided practical insight into how phishing emails operate and how they can be detected. Understanding these techniques is essential for improving cybersecurity awareness and preventing social engineering attacks.
 
-7. Conclusion
+This exercise enhanced my ability to analyze suspicious emails and strengthened my foundational knowledge of phishing detection.
 
-The Phishing Analysis Fundamentals exercise provided valuable insight into how phishing emails are crafted and how they can be detected. By understanding the common indicators of phishing, users can significantly reduce the risk of falling victim to social engineering attacks.
+---
 
-Overall, this exercise strengthened my analytical skills and improved my awareness of phishing threats in real-world scenarios.
+## 8. References
 
-8. References
+- TryHackMe – Phishing Analysis Fundamentals  
+- TryHackMe – Social Engineering Learning Path  
+- General cybersecurity awareness resources  
 
-TryHackMe – Phishing Analysis Fundamentals
-
-TryHackMe – Social Engineering Learning Path
-
-General cybersecurity awareness resources
