@@ -4,7 +4,7 @@
 
 **Platform:** TryHackMe  
 **Category:** Social Engineering / Phishing  
-**Author:** Aiman Solehin 
+**Author:** Aiman Solehin  
 **Date:** 4 January 2025  
 
 ---
